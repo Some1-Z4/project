@@ -1533,7 +1533,7 @@ input:focus {
     color: var(--main-color, #87341B);
   }
 
-  @media (max-width: 998px) {
+  @media (max-width: 1025px) {
   .button-wrap {
     display: none;
     flex-direction: column;
