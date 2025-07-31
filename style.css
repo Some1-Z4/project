@@ -1279,6 +1279,49 @@ input:focus {
   
 }
 
+@media (max-width: 578px) {
+  .main-login {
+    padding: 200px 20px 40px; 
+  }
+
+  .login-card {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .login-left {
+    width: 100%;
+    height: 230px; 
+    background-size: cover;
+    background-image: url(https://static.independent.co.uk/2023/09/03/18/SEI170012590.jpg);
+  }
+
+  .login-right {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .login-right form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .login-right label {
+    font-size: 18px;
+  }
+
+  .login-right input {
+    font-size: 16px;
+  }
+
+  .login-right button {
+    font-size: 18px;
+    padding: 12px;
+  }
+  
+}
+
 @media (max-width: 1430px) and (min-width: 879px) {
   .login-right form {
   width: 100%;
